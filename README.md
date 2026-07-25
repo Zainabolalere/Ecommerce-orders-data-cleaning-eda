@@ -41,13 +41,13 @@ pandas for data manipulation, matplotlib and seaborn for visualization
 ## Data Cleaning
 The following data cleaning steps were performed to ensure data quality:
 
-Filled 309 missing CouponCode values with an explicit 'No Coupon' label rather than a statistical guess, since the blanks represented orders where no coupon was used
+1️⃣ Filled 309 missing CouponCode values with an explicit 'No Coupon' label rather than a statistical guess, since the blanks represented orders where no coupon was used
 
-Audited OrderID and TrackingNumber for duplicates, confirming zero duplicates across all 1,200 rows
+2️⃣ Audited OrderID and TrackingNumber for duplicates, confirming zero duplicates across all 1,200 rows
 
-Converted the Date column from text to a true datetime type (ISO 8601)
+3️⃣ Converted the Date column from text to a true datetime type (ISO 8601)
 
-Rounded UnitPrice and TotalPrice to 2 decimal places, while leaving Quantity and ItemsInCart as whole numbers since they represent counts, not currency
+4️⃣ Rounded UnitPrice and TotalPrice to 2 decimal places, while leaving Quantity and ItemsInCart as whole numbers since they represent counts, not currency
 
 ## Dataset
 The dataset used for this project is `Dataset_for_Data_Analytics_Sheet1.csv`, containing 1,200 rows and 14 columns: OrderID, Date, CustomerID, Product, Quantity, UnitPrice, ShippingAddress, PaymentMethod, OrderStatus, TrackingNumber, ItemsInCart, CouponCode, ReferralSource, and TotalPrice.
