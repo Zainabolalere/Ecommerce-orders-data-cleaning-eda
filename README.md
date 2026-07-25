@@ -50,8 +50,22 @@ The following data cleaning steps were performed to ensure data quality:
 4️⃣ Rounded UnitPrice and TotalPrice to 2 decimal places, while leaving Quantity and ItemsInCart as whole numbers since they represent counts, not currency
 
 ## Dataset
-The dataset used for this project is `Dataset_for_Data_Analytics_Sheet1.csv`, containing 1,200 rows and 14 columns: OrderID, Date, CustomerID, Product, Quantity, UnitPrice, ShippingAddress, PaymentMethod, OrderStatus, TrackingNumber, ItemsInCart, CouponCode, ReferralSource, and TotalPrice.
+The dataset used for this project is `Dataset_for_Data_Analytics_Sheet1.csv`, containing 1,200 rows and 14 columns:
 
+- **OrderID** — unique identifier for each order
+- **Date** — date the order was placed
+- **CustomerID** — unique identifier for each customer
+- **Product** — the product purchased (e.g. Chair, Laptop, Printer)
+- **Quantity** — number of units purchased in the order
+- **UnitPrice** — price per unit of the product
+- **ShippingAddress** — address the order was shipped to
+- **PaymentMethod** — how the customer paid (e.g. Cash, Online, Credit Card)
+- **OrderStatus** — current status of the order (e.g. Delivered, Cancelled, Pending)
+- **TrackingNumber** — unique shipment tracking code for the order
+- **ItemsInCart** — number of items in the customer's cart at checkout
+- **CouponCode** — coupon applied to the order, if any
+- **ReferralSource** — how the customer found the store (e.g. Instagram, Email, Google)
+- **TotalPrice** — final order value (Quantity × UnitPrice)
 ## Insights
 1️⃣ Order Value Distribution
 
