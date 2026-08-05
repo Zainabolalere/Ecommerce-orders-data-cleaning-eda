@@ -80,5 +80,6 @@ Full change log available in [`Data Cleaning and Preparation Change Log`](./Data
 
 Created by **Zainab Olalere**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/zainabolalere)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/zainab-olalere-6424091a4/)
+
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/Zainabolalere)
