@@ -74,7 +74,7 @@ The cleaned dataset passed the following checks:
 | Missing values remaining | 0 |
 | Date format compliance | 100% ISO 8601 |
 
-Full change log available in [`Data Cleaning and Preparation Change Log`](./CHANGE_LOG.md).
+Full change log available in [`Data Cleaning and Preparation Change Log`](./Data%20Cleaning%20and%20Preparation%20Change%20Log.pdf).
 
 ## Contact
 
