@@ -12,7 +12,7 @@
 - [Contact](#contact)
 
 ## Description
-This project uses Python (pandas) to clean a raw e-commerce orders dataset, handling missing values, duplicate identifiers, and inconsistent formatting to produce an analysis-ready dataset. It's Part 1 of a two-part project — see Part 2: [Exploratory Data Analysis](https://github.com/Zainabolalere/project-2-eda).
+This project uses Python (pandas) to clean a raw e-commerce orders dataset, handling missing values, duplicate identifiers, and inconsistent formatting to produce an analysis-ready dataset. It's Part 1 of a two-part project — see Part 2: [Exploratory Data Analysis](https://github.com/Zainabolalere/-E-COMMERCE-ORDERS-EXPLORATORY-DATA-ANALYSIS/tree/main)
 
 ## Overview
 The raw dataset contains 1,200 order records across 14 columns, covering product details, pricing, payment methods, order status, shipping addresses, coupon usage, and referral sources.
